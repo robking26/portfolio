@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://ideal-otter-6ce0a.rehost.site/$1"
+    }
+  ]
+}
