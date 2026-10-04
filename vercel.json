@@ -1,8 +1,9 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "https://robkingdesign.framer.website/:path*"
+      "source": "/(.*)",
+      "destination": "https://robkingdesign.framer.website/$1"
     }
   ]
 }
